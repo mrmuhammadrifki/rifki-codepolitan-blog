@@ -1,0 +1,62 @@
+/* .card-bg {
+    background-color: #aac4ff;
+    box-shadow: 10px 10px 0px 0px #4267b2;
+    -webkit-box-shadow: 10px 10px 0px 0px #4267b2;
+    -moz-box-shadow: 10px 10px 0px 0px #4267b2;
+} */
+.title {
+    font-size: 4.5rem;
+    color: #fff;
+    font-weight: 900;
+}
+.label {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 500;
+}
+.btn-custom {
+    font-size: 1.5rem;
+    color: #fff;
+}
+.btn-facebook {
+    background-color: #4267b2;
+    box-shadow: 8px 8px 0px 0px #dbb632;
+    -webkit-box-shadow: 8px 8px 0px 0px #dbb632;
+    -moz-box-shadow: 8px 8px 0px 0px #dbb632;
+}
+.btn-warning {
+    box-shadow: 8px 8px 0px 0px #4267b2;
+    -webkit-box-shadow: 8px 8px 0px 0px #4267b2;
+    -moz-box-shadow: 8px 8px 0px 0px #4267b2;
+}
+.btn-warning:focus {
+    box-shadow: 8px 8px 0px 0px #4267b2;
+    -webkit-box-shadow: 8px 8px 0px 0px #4267b2;
+    -moz-box-shadow: 8px 8px 0px 0px #4267b2;
+}
+.btn-facebook:hover {
+    background-color: #6688cc;
+}
+.btn-facebook:focus {
+    background-color: #6688cc;
+    box-shadow: 8px 8px 0px 0px #dbb632;
+    -webkit-box-shadow: 8px 8px 0px 0px #dbb632;
+    -moz-box-shadow: 8px 8px 0px 0px #dbb632;
+}
+.btn-login {
+    background-color: #b1b2ff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    box-shadow: 8px 8px 0px 0px #4267b2;
+    -webkit-box-shadow: 8px 8px 0px 0px #4267b2;
+    -moz-box-shadow: 8px 8px 0px 0px #4267b2;
+}
+.btn-login:hover {
+    background-color: #8183ed;
+}
+.btn-login:focus {
+    background-color: #8183ed;
+    box-shadow: 8px 8px 0px 0px #4267b2;
+    -webkit-box-shadow: 8px 8px 0px 0px #4267b2;
+    -moz-box-shadow: 8px 8px 0px 0px #4267b2;
+}

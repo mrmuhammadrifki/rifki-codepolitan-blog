@@ -1,0 +1,236 @@
+:root {
+    --primary-color: #b1b2ff;
+    --secondary-color: #aac4ff;
+    --light-blue: #d2daff;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.bg-nav {
+    background: var(--primary-color);
+}
+.post-title {
+    background: var(--secondary-color);
+    font-size: 1.9rem;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 6rem;
+}
+.post-subtitle {
+    font-size: 0.9rem;
+}
+h1 {
+    width: 40%;
+    margin-bottom: 10rem;
+}
+.card-text {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1rem;
+}
+.detail-banner {
+    width: 100%;
+    height: 289px;
+    object-fit: cover;
+    object-position: center;
+}
+.detail-subtitle {
+    font-size: 1rem;
+}
+.detail-row p {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.detail-body {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    line-height: 1.7rem;
+}
+.card-bg {
+    background: var(--primary-color);
+}
+.other-posts-img {
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+.btn-add {
+    background: var(--primary-color);
+}
+.btn-add:hover {
+    background: #c6c7fd;
+}
+.btn-add:focus {
+    background: #c6c7fd;
+}
+.btn-action {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.edit {
+    background: #b3ffae;
+    border-bottom-right-radius: 0;
+}
+.edit:hover {
+    background: #87ee7f;
+}
+.edit:focus {
+    background: #87ee7f;
+}
+.delete {
+    background: #ff7d7d;
+    border-bottom-left-radius: 0;
+}
+.delete:hover {
+    background: #f15e5e;
+}
+.delete:focus {
+    background: #f15e5e;
+}
+.save {
+    background: #b3ffae;
+    border-bottom-right-radius: 0;
+}
+.save:hover {
+    background: #87ee7f;
+}
+.save:focus {
+    background: #87ee7f;
+}
+
+.input-modal {
+    background: var(--light-blue);
+}
+.input-modal:focus {
+    background: var(--light-blue);
+}
+.btn-upload {
+    background: var(--light-blue);
+}
+.btn-upload:hover {
+    background: #9aa9e8;
+}
+.hero .post-subtitle {
+    font-size: 1rem;
+}
+.hero .card-text {
+    font-size: 1.2rem;
+}
+.category-container {
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    width: 100%;
+    white-space: nowrap;
+}
+.card-category {
+    display: inline-block;
+    width: 25%;
+    margin-right: 0.6rem;
+}
+
+.category-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.category-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.category-container:hover::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+}
+
+.category-container:hover {
+    scrollbar-color: #ccc transparent;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-color: rgba(0, 0, 0, 0.8);
+}
+
+.btn-primari {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.btn-primari:hover {
+    background-color: black;
+    color: white;
+}
+.btn-primari:focus {
+    background-color: black;
+    color: white;
+}
+
+.myimage-card {
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.hero-image-thumbnail {
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.post-thumbnail {
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.action-admin-category {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -100px;
+    transition: all 0.5s ease-in-out;
+}
+
+.card-category {
+    position: relative;
+    overflow: hidden;
+}
+
+.category-thumb {
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-category:hover .action-admin-category {
+    bottom: 0;
+}
+
+@media screen and (max-width: 1199px) {
+    h1 {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 990px) {
+    h1 {
+        width: 60%;
+    }
+    .card-category {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 767px) {
+    h1 {
+        width: 100%;
+    }
+}
